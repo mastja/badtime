@@ -31,7 +31,7 @@ int main(){
     clock_t t1, t2;
 
     // declare variable for array length
-    int n = 5000;
+    int n = 40;
 
     // declare/set alpha variable
     float alpha;
@@ -39,7 +39,7 @@ int main(){
     cin >> alpha;
 
     // repeat loop every 5,000 up to 40,000 (7x)
-    while (n<=40000){
+    while (n<=280){
 
         // declare a float to keep time total
         float time = 0.00;
@@ -85,7 +85,7 @@ int main(){
         outfile1 << n << " " << average << endl;
         
         // increment array size
-        n = n + 5000;
+        n = n + 40;
     }
 
     // close the opened files
